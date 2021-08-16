@@ -5,3 +5,49 @@
 .text-secondary{
     color:#0284d0
 }
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding:10px 30px;
+    color:#ffff;
+    border:none;
+    border-radius: 5px;
+    background-color: #28a745;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-primary{
+    background-color: #28a745;
+    color:#fff;
+}
+
+.btn-secondary{
+    background-color: #0284d0;
+    color:#fff
+}
+
+.btn-light{
+    background-color: #28a745;
+    color:#333
+}
+
+.btn-dark{
+    background-color: #333;
+    color:#fff;
+}
+
+/* Flex Items */
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    text-align:center;
+    height:100%;
+}
+
+.flex-items > div{
+    padding:20px;
+}
